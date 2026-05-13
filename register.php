@@ -1,9 +1,10 @@
 <?php
 include 'config/database.php';
 include 'includes/session.php';
+include 'includes/header.php';
 ?>
 
-<?php include 'includes/header.php'; ?>
+
 
 <div class="container mt-5" style="max-width:500px;">
 
