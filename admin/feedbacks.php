@@ -1,15 +1,14 @@
 <?php
 include '../config/database.php';
 include '../includes/admin_auth.php';
+include '../includes/header.php';
+include '../includes/navbar.php';
 
 if(!isset($_SESSION['user_id'])){
     header("Location: ../login.php");
     exit();
 }
 ?>
-
-<?php include '../includes/header.php'; ?>
-<?php include '../includes/navbar.php'; ?>
 
 <div class="container mt-5">
 
