@@ -1,10 +1,9 @@
 <?php
 include '../config/database.php';
 include '../includes/admin_auth.php';
+include '../includes/header.php';
+include '../includes/navbar.php';
 ?>
-
-<?php include '../includes/header.php'; ?>
-<?php include '../includes/navbar.php'; ?>
 
 <div class="container mt-5">
 
