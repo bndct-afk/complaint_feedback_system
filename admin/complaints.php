@@ -10,8 +10,6 @@ if(!isset($_SESSION['user_id'])){
 }
 ?>
 
-
-
 <div class="container mt-5">
 
     <h2 class="mb-4">Manage Complaints</h2>
