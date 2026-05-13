@@ -10,7 +10,6 @@ if(!isset($_SESSION['user_id'])){
 }
 ?>
 
-<?php include '../includes/header.php'; ?>
 
 <div class="container mt-5" style="max-width:700px;">
 
