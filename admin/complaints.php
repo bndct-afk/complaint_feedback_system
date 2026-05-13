@@ -2,6 +2,7 @@
 include '../config/database.php';
 include '../includes/admin_auth.php';
 include '../includes/navbar.php';
+include '../includes/header.php';
 
 if(!isset($_SESSION['user_id'])){
     header("Location: ../login.php");
@@ -9,7 +10,7 @@ if(!isset($_SESSION['user_id'])){
 }
 ?>
 
-<?php include '../includes/header.php'; ?>
+
 
 <div class="container mt-5">
 
